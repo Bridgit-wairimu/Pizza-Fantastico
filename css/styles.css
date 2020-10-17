@@ -1,0 +1,169 @@
+.header{
+    background-image: url("../images/img\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 360px; 
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+#nav{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: left;
+    color: white;
+}
+ul,li{
+    list-style: none;
+    justify-content: space-around;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+.par1{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+    color: white;
+    padding: 1rem;
+}
+.text{
+    font-weight: 700;
+    float: left;
+    border-radius: 10px;
+    box-sizing: content-box;
+    background-color: skyblue;
+    font-weight: bolder;
+    font-size: large;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    width: 500px;
+    height: 380px;
+    text-align: center;
+}
+.img2{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+}
+.card1{
+    float: right;
+    width: 300px;
+    height: 180px;
+    margin: 10px;
+    display: flex;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+     font-size: x-large;
+ }
+ .hd4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
+    margin: 5px;     
+ }
+ .menup{
+     text-align: center;
+     margin: 10px;
+     display: flex;
+     justify-content: space-around;
+ }
+ #order,label{
+     background-image: url('../images/img\ 4.jpg');
+     background-repeat: no-repeat;
+     position: relative;
+     height: 430px;
+     text-align: center;
+     color: white;
+     margin: 10px;
+ }
+ h6{
+     text-align: center;
+     color: white;
+     font-size: large;
+
+ }
+ select{
+     color: blue;
+     margin: 25px;
+     text-align: center;
+ }
+
+ button {
+    background-color: skyblue;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    margin: 8px;
+}
+.head2{
+   text-align: center; 
+   font-size: large;
+   margin: 55px;
+   color: black;
+}
+input[type=text] {
+    margin: 10px;
+    text-align: left;
+    height: 25px;
+    width: 300px;
+}
+
+input[type=text]{
+    margin : 10px;
+    text-align: left;
+    height: 25px;
+    width: 300px;
+}
+input[type=telephone]{
+    text-align: left;
+    margin: 10px;
+    height: 25px;
+    width: 300px;
+}
+footer{
+    background-image: url("../images/gettyimage.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 900px;
+    height: 200px;
+    color: white;
+    text-align: left;
+}
+.head4{
+    text-align: left;
+    color: white;
+}
+#contacts,.para2{
+    display: flex;
+    text-align: center;
+    color: color;
+    font-weight: 600;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+
+ 
+
+ 
+
+ 
