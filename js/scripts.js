@@ -22,14 +22,14 @@ $(document).ready(function(){
       return parseInt(numberOfPizzas);
     }
 
-    function Order(flavor, size, crust, topping, number) {
+    function order(flavor, size, crust, topping, number) {
       this.newFlavor = flavor;
       this.newSize = size;
       this.newCrust = crust;
       this.newTopping = topping;
       this.newNumber = number;
     }
-    var userInput = new Order(flavor(), size(), crust(), topping(), number());
+    var userInput = new order(flavor(), size(), crust(), topping(), number());
 
     var totalCost =
       (userInput.newFlavor +
