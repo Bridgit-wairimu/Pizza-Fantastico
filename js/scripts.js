@@ -38,7 +38,7 @@ $(document).ready(function(){
         userInput.newTopping) *
       userInput.newNumber;
       alert("Your charges for Pizza is " + + totalCost);
-      alert("Your pizza will be delivered to you in an instant");  
+      alert("Your pizza will be delivered to you in an instant and thank you for choosing us");  
 
    $("#formgroup").submit(function(execute) {
        execute.preventDefault();
