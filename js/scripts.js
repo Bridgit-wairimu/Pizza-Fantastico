@@ -2,20 +2,20 @@ $(document).ready(function(){
   
 
     function flavor() {
-      var pizzaFlavor = document.getElementById("flavor").value;
-      return parseInt(pizzaFlavor);
+      var selectFlavor = document.getElementById("flavor").value;
+      return parseInt(selectFlavor);
     }
     function size() {
-      var pizzaSize = document.getElementById("size").value;
-      return parseInt(pizzaSize);
+      var selectSize = document.getElementById("size").value;
+      return parseInt(selectSize);
     }
     function crust() {
-      var pizzaCrust = document.getElementById("crust").value;
-      return parseInt(pizzaCrust);
+      var selectCrust = document.getElementById("crust").value;
+      return parseInt(selectCrust);
     }
     function topping() {
-      var pizzaTopping = document.getElementById("topping").value;
-      return parseInt(pizzaTopping);
+      var selectTopping = document.getElementById("topping").value;
+      return parseInt(selectTopping);
     }
     function number() {
       var numberOfPizzas = document.getElementById("number").value;
@@ -32,17 +32,16 @@ $(document).ready(function(){
     var userInput = new Order(flavor(), size(), crust(), topping(), number());
 
     var totalCost =
-      (userInput.newSize +
+      (userInput.newFlavor +
+        userInput.newSize +
         userInput.newCrust +
-        userInput.newTopping +
-        userInput.newFlavor +
-      userInput.newNumber);
-
-      alert("Your charges for Pizza" + totalCost);
+        userInput.newTopping) *
+      userInput.newNumber;
+      alert("Your charges for Pizza is " + + totalCost);
       alert("Your pizza will be delivered to you in an instant");  
 
    $("#formgroup").submit(function(execute) {
        execute.preventDefault();
- 
+
          });
   });
