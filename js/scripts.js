@@ -35,7 +35,7 @@ $(document).ready(function(){
     prompt("enter your email address");
     prompt("enter your phone number");
     prompt("enter your location");
-    alert("Your pizza will be delivered to you in an instant and your delivery cost is sh.200 .Thank you for choosing us");
+    alert("Your pizza will be delivered to you in an instant and your delivery cost is sh.250.Thank you for choosing us");
 
 
     $("#formgroup")(function(execute) {
