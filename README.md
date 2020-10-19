@@ -11,6 +11,16 @@
 #### Then you can code in atom or any code text editor you may prefer.
 
 # BDD
+## example 1
+## Behaviour
+#### Select flavor - e.g vegg tikka
+### Select size - e.g medium
+#### Select crust - e.g crust
+#### Select topping - e.g tomato
+#### Number of pizzas - e.g 5
+#### submit - Your total charge is ""
+
+## example 2
 ## Behaviour                
 #### Enter name -    e.g Bridgit(input)
 #### Enter location -   e.g kangemi(input)
