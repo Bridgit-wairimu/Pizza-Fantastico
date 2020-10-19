@@ -18,8 +18,8 @@ $(document).ready(function(){
       return parseInt(selectTopping);
     }
     function number() {
-      let numberOfPizzas = document.getElementById("number").value;
-      return parseInt(numberOfPizzas);
+      let number = document.getElementById("number").value;
+      return parseInt(number);
     }
 
     function order(flavor, size, crust, topping, number) {
@@ -29,19 +29,15 @@ $(document).ready(function(){
       this.newTopping = topping;
       this.newNumber = number;
     }
-    let userInput = new order(flavor(), size(), crust(), topping(), number());
 
-    let totalCost =
-      (userInput.newFlavor +
-        userInput.newSize +
-        userInput.newCrust +
-        userInput.newTopping) *
-        userInput.newNumber;
-      alert("Your charges for Pizza is " + + totalCost);
-      alert("Your pizza will be delivered to you in an instant and thank you for choosing us");  
+    let userInput = new order(flavor(),size(),crust(),topping(), number()); 
 
-   $("#formgroup").submit(function(execute) {
-       execute.preventDefault();
+    let totalCost = (userInput.newFlavor + userInput.newSize + userInput.newCrust + userInput.newTopping);
+      alert("Your charges for pizza is " + + totalCost)
+      alert("Your pizza will be delivered to you in an instant and thank you for choosing us");
 
-         });
-  });
+  $("#formgroup").submit(function(execute) {
+    execute.preventDefault();
+
+});
+});
