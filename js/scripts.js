@@ -18,8 +18,8 @@ $(document).ready(function(){
       return parseInt(selectTopping);
     }
     function number() {
-      let selectNumber = document.getElementById("number").value;
-      return parseInt(selectNumber);
+      let inputNumber = document.getElementById("number").value;
+      return parseInt(inputNumber);
     }
 
     function order(flavor, size, crust, topping, number) {
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     let userInput = new order(flavor(),size(),crust(),topping(),number()); 
 
-    let totalCost = (userInput.newFlavor + userInput.newSize + userInput.newCrust + userInput.newTopping);
+    let totalCost = (userInput.newFlavor + userInput.newSize + userInput.newCrust + userInput.newTopping) *userInput.newNumber;
       alert("Your charges for pizza is " + + totalCost)
       alert("Your pizza will be delivered to you in an instant and thank you for choosing us");
 
