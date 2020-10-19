@@ -36,7 +36,7 @@
 #### 6.jQuery
 
 # live link
-#### 
+#### https://bridgit-wairimu.github.io/Pizza-Fantastico/
 # License
 #### MIT LICENSE
 
