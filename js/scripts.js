@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     let userInput = new order(flavor(),size(),crust(),topping(),number()); 
 
-    let totalCost = (userInput.newFlavor + userInput.newSize + userInput.newCrust + userInput.newTopping) *userInput.newNumber;
+    let totalCost = (userInput.newFlavor + userInput.newSize + userInput.newCrust + userInput.newTopping);
       alert("Your charges for pizza is " + + totalCost)
       alert("Your pizza will be delivered to you in an instant and thank you for choosing us");
 
