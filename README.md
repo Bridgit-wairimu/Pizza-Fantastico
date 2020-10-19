@@ -14,7 +14,7 @@
 ## example 1
 ## Behaviour
 #### Select flavor - e.g vegg tikka
-### Select size - e.g medium
+#### Select size - e.g medium
 #### Select crust - e.g crust
 #### Select topping - e.g tomato
 #### Number of pizzas - e.g 5
